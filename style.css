@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   box-sizing: border-box;
   transition: transform 0.3s;
-  z-index: 3;
+  z-index: 2;
 }
 
 .menu-item:hover {
@@ -54,7 +54,7 @@ body {
   color: white;
   text-align: center;
   font-size: 16px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .middle-circle {
@@ -67,7 +67,7 @@ body {
   background-color: #55b7d9;
   border-radius: 50%;
   font-size: 16px;
-  z-index: 3;
+  z-index: 1;
 }
 
 .category-label {
@@ -78,7 +78,7 @@ body {
   text-align: center;
   font-weight: bold;
   color: #333;
-  z-index: 3;
+  z-index: 2;
 }
 
 .category-label.top {
