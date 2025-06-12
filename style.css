@@ -126,13 +126,13 @@ body {
 }
 
 .divider1 {
-  transform: rotate(0deg);
+  transform: translate(-50%) rotate(0deg);
 }
 
 .divider2 {
-  transform: rotate(120deg);
+  transform: translate(-50%) rotate(120deg);
 }
 
 .divider3 {
-  transform: rotate(240deg);
+  transform: translate(-50%) rotate(240deg);
 }
