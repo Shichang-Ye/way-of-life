@@ -1,0 +1,43 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle-menu {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+}
+
+.menu-item {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color: #55b7d9;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s;
+
+  /* Center text inside circle */
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  text-align: center;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 16px; /* Adjust as needed */
+}
+
+
+.menu-item:hover {
+  transform: scale(1.15);
+}
