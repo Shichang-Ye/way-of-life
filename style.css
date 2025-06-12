@@ -53,6 +53,7 @@ body {
   color: white;
   text-align: center;
   font-size: 16px;
+  z-index: 10; /* 👈 Add this line */
 }
 
 .middle-circle {
@@ -112,7 +113,7 @@ body {
 .divider {
   position: absolute;
   width: 20px;
-  height: 375px;
+  height: 360px;
   background-color: #ccc;
   top: 50%;
   left: 50%;
