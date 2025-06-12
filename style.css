@@ -119,9 +119,9 @@ body {
 }
 
 .divider2 {
-  transform: translate(-50%, -100%) rotate(120deg);
+  transform: translate(-50%, 100%) rotate(120deg);
 }
 
 .divider3 {
-  transform: translate(-50%, -100%) rotate(240deg);
+  transform: translate(-50%, 100%) rotate(240deg);
 }
