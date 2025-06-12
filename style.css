@@ -17,8 +17,8 @@ body {
 
 .menu-item {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   color: white;
   background-color: #55b7d9;
   border-radius: 50%;
@@ -38,13 +38,11 @@ body {
 }
 
 /* Center circle */
-.center-circle {
+.inner-circle {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 150px;
-  height: 150px;
-  background-color: #55b7d9;
+  width: 100px;
+  height: 100px;
+  background-color: #0000FF;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -53,10 +51,18 @@ body {
   font-weight: bold;
   color: white;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-/* Inner ring category labels */
+.middle-circle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: #55b7d9;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
 .category-label {
   position: absolute;
   width: 160px;
@@ -90,9 +96,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 800px;
-  height: 800px;
-  border: 4px solid #ccc;
+  width: 750px;
+  height: 750px;
+  border: 20px solid #ccc;
   border-radius: 50%;
   pointer-events: none;
 }
@@ -100,7 +106,7 @@ body {
 /* Dividers to split into 3 sections */
 .divider {
   position: absolute;
-  width: 2px;
+  width: 20px;
   height: 400px;
   background-color: #ccc;
   top: 50%;
