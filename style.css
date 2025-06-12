@@ -53,7 +53,7 @@ body {
   color: white;
   text-align: center;
   font-size: 16px;
-  z-index: 10; /* 👈 Add this line */
+  z-index: 10;
 }
 
 .middle-circle {
@@ -70,6 +70,8 @@ body {
 
 .category-label {
   position: absolute;
+  top: 50%;
+  left: 50%;
   width: 160px;
   text-align: center;
   font-weight: bold;
@@ -79,7 +81,7 @@ body {
 .category-label.top {
   top: 120px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .category-label.left {
@@ -118,6 +120,7 @@ body {
   top: 50%;
   left: 50%;
   transform-origin: top center;
+  z-index: 1;
 }
 
 .divider1 {
