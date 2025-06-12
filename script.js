@@ -1,32 +1,31 @@
 window.addEventListener('DOMContentLoaded', () => {
   const items = [
-    { label: "Vegetation Community Classification", link: "https://example.com/vegetation" },
-    { label: "Snow Contamination", link: "https://example.com/snow-contamination" },
-    { label: "Air Quality", link: "https://example.com/air-quality" },
-    { label: "Waterfowl Egg Quality", link: "https://example.com/egg-quality" },
-    { label: "Fish Quality", link: "https://example.com/fish-quality" },
-    { label: "Muskrat Quality", link: "https://example.com/muskrat-quality" },
-    { label: "River Water Quality", link: "https://example.com/river-water" },
-    { label: "Lake Level", link: "https://example.com/lake-level" },
-    { label: "Surface Water", link: "https://example.com/surface-water" },
-    { label: "AXF", link: "https://example.com/axf" },
-    { label: "River Flow", link: "https://example.com/river-flow" },
-    { label: "Ice", link: "https://example.com/ice" },
-    { label: "Muskrat Abundance", link: "https://example.com/muskrat-abundance" },
-    { label: "Waterfowl Abundance", link: "https://example.com/waterfowl" },
-    { label: "Wood Bison Abundance", link: "https://example.com/wood-bison" },
-    { label: "Plant Productivity & Growing Season Change", link: "https://example.com/growing-season" }
+    { label: "Vegetation Community Classification", link: "#" },
+    { label: "Snow Contamination", link: "#" },
+    { label: "Air Quality", link: "#" },
+    { label: "Waterfowl Egg Quality", link: "#" },
+    { label: "Fish Quality", link: "#" },
+    { label: "Muskrat Quality", link: "#" },
+    { label: "River Water Quality", link: "#" },
+    { label: "Lake Level", link: "#" },
+    { label: "Surface Water", link: "#" },
+    { label: "AXF", link: "#" },
+    { label: "River Flow", link: "#" },
+    { label: "Ice", link: "#" },
+    { label: "Muskrat Abundance", link: "#" },
+    { label: "Waterfowl Abundance", link: "#" },
+    { label: "Wood Bison Abundance", link: "#" },
+    { label: "Plant Productivity & Growing Season Change", link: "#" }
   ];
 
   const circleMenu = document.getElementById("circleMenu");
   const centerX = circleMenu.offsetWidth / 2;
   const centerY = circleMenu.offsetHeight / 2;
-
-  const radius = 400;
+  const radius = 340; // Outer circle radius
   const angleStep = (2 * Math.PI) / items.length;
 
   items.forEach((item, i) => {
-    const angle = i * angleStep;
+    const angle = i * angleStep - Math.PI / 2; // Start from top
     const x = centerX + radius * Math.cos(angle) - 50;
     const y = centerY + radius * Math.sin(angle) - 50;
 
