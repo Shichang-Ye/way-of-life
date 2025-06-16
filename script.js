@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
   const items = [
     // Manually define each item with angle (degrees), label, and link
-    { angleDeg: 12, label: "Wood Bison Abundance", link: "#" },
-    { angleDeg: 33.5, label: "Muskrat Abundance", link: "#" },
+    { angleDeg: 12, label: "Wood Bison Abundance" },
+    { angleDeg: 33.5, label: "Muskrat Abundance" },
     { angleDeg: 55, label: "Waterfowl Abundance", link: "https://www.arcgis.com/apps/dashboards/c3dde2e77d0a402fa28407f218530275" },
     { angleDeg: 76.7, label: "Plant Productivity & Growing Season Change", link: "https://apca.maps.arcgis.com/apps/dashboards/f3e230c889e146e895542932c5153b99" },
     { angleDeg: 98, label: "Vegetation Community Classification", link: "https://www.arcgis.com/apps/dashboards/c5e0ac5a9e7f4e6f9f9e902f4f608ece" },
@@ -10,9 +10,9 @@ window.addEventListener('DOMContentLoaded', () => {
     { angleDeg: 122, label: "Air Quality", link: "https://www.arcgis.com/apps/dashboards/958cc412607c49d08169e7998af4a340" },
     { angleDeg: 145.2, label: "Waterfowl Egg Quality", link: "https://apca.maps.arcgis.com/apps/dashboards/4d5df48bbd494a67846d90fe8954b7cf" },
     { angleDeg: 168.4, label: "Snow Contamination", link: "https://www.arcgis.com/apps/dashboards/d8b751e1e2b3468d8f052d32afd7c093" },
-    { angleDeg: 191.6, label: "Fish Quality", link: "#" },
+    { angleDeg: 191.6, label: "Fish Quality" },
     { angleDeg: 214.8, label: "River Water Quality", link: "https://www.arcgis.com/apps/dashboards/10be9736c9f84297b7f7b2db7963f0f5" },
-    { angleDeg: 238, label: "Muskrat Quality", link: "#" },
+    { angleDeg: 238, label: "Muskrat Quality" },
 
     { angleDeg: 262, label: "Ice", link: "https://www.arcgis.com/apps/dashboards/c6399a3e216047c9a46adb0e95d433c3" },
     { angleDeg: 283.5, label: "Surface Water", link: "https://www.arcgis.com/apps/dashboards/51963a29c60740268b59a54a8b05cf46" },
