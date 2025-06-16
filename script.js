@@ -14,11 +14,11 @@ window.addEventListener('DOMContentLoaded', () => {
     { angleDeg: 214.8, label: "River Water Quality", link: "#" },
     { angleDeg: 238, label: "Muskrat Quality", link: "#" },
 
-    { angleDeg: 262, label: "River Flow", link: "#" },
-    { angleDeg: 283.5, label: "AXF", link: "#" },
+    { angleDeg: 262, label: "Ice", link: "#" },
+    { angleDeg: 283.5, label: "Surface Water", link: "#" },
     { angleDeg: 305, label: "Lake Level", link: "#" },
-    { angleDeg: 326.5, label: "Surface Water", link: "#" },
-    { angleDeg: 348, label: "Ice", link: "#" },
+    { angleDeg: 326.5, label: "AXF", link: "#" },
+    { angleDeg: 348, label: "River Flow", link: "#" },
 
     // Add more items here as needed
   ];
