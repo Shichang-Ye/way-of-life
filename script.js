@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const circleMenu = document.getElementById("circleMenu");
   const centerX = circleMenu.offsetWidth / 2;
   const centerY = circleMenu.offsetHeight / 2;
-  const radius = 350; // Outer circle radius
+  const radius = 300; // Outer circle radius
   const angleStep = (2 * Math.PI) / items.length;
 
   items.forEach((item, i) => {
