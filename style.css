@@ -96,6 +96,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.category-label.top:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+}
+
 .category-label.left {
   top: 110px;
   left: 40px;
@@ -103,11 +107,20 @@ body {
   transform-origin: left center;
 }
 
+.category-label.left:hover {
+  transform: rotate(60deg) scale(1.15);
+}
+
+
 .category-label.right {
   top: 110px;
   left: 100px;
   transform: rotate(-60deg);
   transform-origin: right center;
+}
+
+.category-label.right:hover {
+  transform: rotate(-60deg) scale(1.15);
 }
 
 /* Outer grey ribbon (circular border) */
