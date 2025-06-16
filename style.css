@@ -127,7 +127,7 @@ body {
   left: 50%;
   width: 600px;
   height: 600px;
-  border: 20px solid #ccc;
+  border: 10px solid #ccc;
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
