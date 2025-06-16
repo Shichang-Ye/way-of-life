@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
   const items = [
-    // Manually define each item with angle (degrees), label, and link
     { angleDeg: 12, label: "Wood Bison Abundance" },
     { angleDeg: 33.5, label: "Muskrat Abundance" },
     { angleDeg: 55, label: "Waterfowl Abundance", link: "https://www.arcgis.com/apps/dashboards/c3dde2e77d0a402fa28407f218530275" },
@@ -19,8 +18,6 @@ window.addEventListener('DOMContentLoaded', () => {
     { angleDeg: 305, label: "Lake Level", link: "https://www.arcgis.com/apps/dashboards/d8fa865c3ce44f76904eb8628ce9a288" },
     { angleDeg: 326.5, label: "AXF", link: "https://www.arcgis.com/apps/dashboards/b99e3d8d2b4d408791bf5ac47c9961bd" },
     { angleDeg: 348, label: "River Flow", link: "https://www.arcgis.com/apps/dashboards/d9acccf8158c43a68b78527d0389ba13" },
-
-    // Add more items here as needed
   ];
 
   const circleMenu = document.getElementById("circleMenu");
@@ -33,13 +30,17 @@ window.addEventListener('DOMContentLoaded', () => {
     const x = centerX + radius * Math.cos(angleRad) - 55;
     const y = centerY + radius * Math.sin(angleRad) - 55;
 
-    const el = document.createElement("a");
+    const el = link ? document.createElement("a") : document.createElement("div");
     el.className = "menu-item";
-    el.href = link;
-    el.target = "_blank";
+    el.textContent = label;
+
+    if (link) {
+      el.href = link;
+      el.target = "_blank";
+    }
+
     el.style.left = `${x}px`;
     el.style.top = `${y}px`;
-    el.textContent = label;
 
     circleMenu.appendChild(el);
   });
