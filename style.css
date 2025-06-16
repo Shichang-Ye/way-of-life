@@ -76,7 +76,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 160px;
+  width: 200px;
   text-align: center;
   font-weight: bold;
   color: #333;
@@ -85,7 +85,6 @@ body {
   transition: font-size 0.3s, transform 0.3s;
   font-size: 16px;
 }
-
 
 .category-label.top {
   top: 70px;
@@ -99,25 +98,25 @@ body {
 }
 
 .category-label.left {
-  top: 180px;
-  left: -10px;
-  transform: rotate(60deg);
+  top: 190px;
+  left: -20px;
+  transform: rotate(55deg);
   transform-origin: center;
 }
 
 .category-label.left:hover {
-  transform: rotate(60deg) scale(1.15);
+  transform: rotate(55deg) scale(1.15);
 }
 
 .category-label.right {
   top: 180px;
-  left: 150px;
-  transform: rotate(-60deg);
+  left: 130px;
+  transform: rotate(-55deg);
   transform-origin: center;
 }
 
 .category-label.right:hover {
-  transform: rotate(-60deg) scale(1.15);
+  transform: rotate(-55deg) scale(1.15);
 }
 
 /* Outer grey ribbon (circular border) */
@@ -150,9 +149,9 @@ body {
 }
 
 .divider2 {
-  transform: translate(-50%) rotate(120deg);
+  transform: translate(-50%) rotate(110deg);
 }
 
 .divider3 {
-  transform: translate(-50%) rotate(240deg);
+  transform: translate(-50%) rotate(250deg);
 }
