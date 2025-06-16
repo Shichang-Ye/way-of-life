@@ -86,37 +86,37 @@ body {
   font-size: 16px;
 }
 
-.category-label.top {
-  top: 70px;
+.category-label.left {
+  top: 90px;
+  left: -20px;
+  transform: rotate(-55deg);
+  transform-origin: center;
+}
+
+.category-label.left:hover {
+  transform: rotate(-55deg) scale(1.15);
+}
+
+.category-label.right {
+  top: 90px;
+  left: 130px;
+  transform: rotate(55deg);
+  transform-origin: center;
+}
+
+.category-label.right:hover {
+  transform: rotate(55deg) scale(1.15);
+}
+
+.category-label.bottom {
+  top: 220px;
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: center;
 }
 
-.category-label.top:hover {
+.category-label.bottom:hover {
   transform: translate(-50%, -50%) scale(1.15);
-}
-
-.category-label.left {
-  top: 190px;
-  left: -20px;
-  transform: rotate(55deg);
-  transform-origin: center;
-}
-
-.category-label.left:hover {
-  transform: rotate(55deg) scale(1.15);
-}
-
-.category-label.right {
-  top: 180px;
-  left: 130px;
-  transform: rotate(-55deg);
-  transform-origin: center;
-}
-
-.category-label.right:hover {
-  transform: rotate(-55deg) scale(1.15);
 }
 
 /* Outer grey ribbon (circular border) */
@@ -145,13 +145,13 @@ body {
 }
 
 .divider1 {
-  transform: translate(-50%) rotate(0deg);
+  transform: translate(-50%) rotate(180deg);
 }
 
 .divider2 {
-  transform: translate(-50%) rotate(110deg);
+  transform: translate(-50%) rotate(70deg);
 }
 
 .divider3 {
-  transform: translate(-50%) rotate(250deg);
+  transform: translate(-50%) rotate(290deg);
 }
