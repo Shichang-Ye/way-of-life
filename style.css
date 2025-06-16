@@ -10,8 +10,8 @@ body {
 
 .circle-menu {
   position: relative;
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
 }
 
@@ -137,7 +137,7 @@ body {
 .divider {
   position: absolute;
   width: 20px;
-  height: 360px;
+  height: 250px;
   background-color: #ccc;
   top: 50%;
   left: 50%;
