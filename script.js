@@ -26,8 +26,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
   items.forEach((item, i) => {
     const angle = i * angleStep - Math.PI / 2; // Start from top
-    const x = centerX + radius * Math.cos(angle) - 50;
-    const y = centerY + radius * Math.sin(angle) - 50;
+    const x = centerX + radius * Math.cos(angle) - 55;
+    const y = centerY + radius * Math.sin(angle) - 55;
 
     const el = document.createElement("a");
     el.className = "menu-item";
