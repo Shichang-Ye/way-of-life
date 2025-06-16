@@ -109,7 +109,7 @@ body {
 }
 
 .category-label.bottom {
-  top: 220px;
+  top: 230px;
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: center;
