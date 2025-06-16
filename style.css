@@ -88,7 +88,7 @@ body {
 
 .category-label:hover {
   font-size: 20px;
-  transform: scale(1.1);
+  transform: scale(1.05);
   color: #000;
 }
 
