@@ -34,7 +34,7 @@ body {
 }
 
 .menu-item:hover {
-  transform: scale(1.15);
+  transform: scale(1.10);
 }
 
 /* Center circle */
