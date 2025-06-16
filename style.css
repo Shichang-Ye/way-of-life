@@ -86,14 +86,12 @@ body {
   font-size: 16px;
 }
 
-.category-label:hover {
-  transform: scale(1.15);
-}
 
 .category-label.top {
   top: 70px;
   left: 50%;
   transform: translate(-50%, -50%);
+  transform-origin: center;
 }
 
 .category-label.top:hover {
@@ -101,22 +99,21 @@ body {
 }
 
 .category-label.left {
-  top: 110px;
-  left: 40px;
+  top: 180px;
+  left: -10px;
   transform: rotate(60deg);
-  transform-origin: left center;
+  transform-origin: center;
 }
 
 .category-label.left:hover {
   transform: rotate(60deg) scale(1.15);
 }
 
-
 .category-label.right {
-  top: 110px;
-  left: 100px;
+  top: 180px;
+  left: 150px;
   transform: rotate(-60deg);
-  transform-origin: right center;
+  transform-origin: center;
 }
 
 .category-label.right:hover {
