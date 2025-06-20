@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     { angleDeg: 33.5, label: "Muskrat Abundance" },
     { angleDeg: 55, label: "Waterfowl Abundance", link: "https://www.arcgis.com/apps/dashboards/c3dde2e77d0a402fa28407f218530275" },
     { angleDeg: 76.7, label: "Plant Productivity & Growing Season Change", link: "https://apca.maps.arcgis.com/apps/dashboards/f3e230c889e146e895542932c5153b99" },
-    { angleDeg: 98, label: "Vegetation Community Classification", link: "https://www.arcgis.com/apps/dashboards/94a8c9c3ef0a436081a64d69bb410047" },
+    { angleDeg: 98, label: "Vegetation Community Classification", link: "https://www.arcgis.com/apps/dashboards/c4aa379ef7b64384abf7b335cda6c89b" },
 
     { angleDeg: 122, label: "Air Quality", link: "https://www.arcgis.com/apps/dashboards/958cc412607c49d08169e7998af4a340" },
     { angleDeg: 145.2, label: "Waterfowl Egg Quality", link: "https://apca.maps.arcgis.com/apps/dashboards/4d5df48bbd494a67846d90fe8954b7cf" },
