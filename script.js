@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     { angleDeg: 98, label: "Vegetation Community Classification", link: "https://www.arcgis.com/apps/dashboards/c4aa379ef7b64384abf7b335cda6c89b" },
 
     { angleDeg: 122, label: "Air Quality", link: "https://www.arcgis.com/apps/dashboards/958cc412607c49d08169e7998af4a340" },
-    { angleDeg: 145.2, label: "Waterfowl Egg Quality", link: "https://apca.maps.arcgis.com/apps/dashboards/4d5df48bbd494a67846d90fe8954b7cf" },
+    { angleDeg: 145.2, label: "Waterbird Egg Quality", link: "https://apca.maps.arcgis.com/apps/dashboards/4d5df48bbd494a67846d90fe8954b7cf" },
     { angleDeg: 168.4, label: "Snow Contamination", link: "https://www.arcgis.com/apps/dashboards/d8b751e1e2b3468d8f052d32afd7c093" },
     { angleDeg: 191.6, label: "Fish Quality" },
     { angleDeg: 214.8, label: "River Water Quality", link: "https://www.arcgis.com/apps/dashboards/10be9736c9f84297b7f7b2db7963f0f5" },
