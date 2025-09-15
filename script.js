@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
   const items = [
-    { angleDeg: 12, label: "Wood Bison Abundance" },
+    { angleDeg: 12, label: "Wood Bison Abundance", link: "https://apca.maps.arcgis.com/apps/dashboards/f0e11127de404d98a384d398c89bd9cb" },
     { angleDeg: 33.5, label: "Muskrat Abundance" },
     { angleDeg: 55, label: "Waterfowl Abundance", link: "https://www.arcgis.com/apps/dashboards/c3dde2e77d0a402fa28407f218530275" },
     { angleDeg: 76.7, label: "Plant Productivity & Growing Season Change", link: "https://apca.maps.arcgis.com/apps/dashboards/f3e230c889e146e895542932c5153b99" },
