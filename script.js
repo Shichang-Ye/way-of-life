@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     { angleDeg: 262, label: "Ice", link: "https://www.arcgis.com/apps/dashboards/c6399a3e216047c9a46adb0e95d433c3" },
     { angleDeg: 283.5, label: "Surface Water", link: "https://www.arcgis.com/apps/dashboards/0c7c8218200f4970acdc744b23b48109" },
-    { angleDeg: 305, label: "Lake Level", link: "https://www.arcgis.com/apps/dashboards/d8fa865c3ce44f76904eb8628ce9a288" },
+    { angleDeg: 305, label: "Lake Level", link: "https://apca.maps.arcgis.com/apps/dashboards/33d173483dba4f6e9d60bd2b65c498c8" },
     { angleDeg: 326.5, label: "Navigation", link: "https://www.arcgis.com/apps/dashboards/71317a760f0b4bf5a8962feb150a0547" },
     { angleDeg: 348, label: "River Flow", link: "https://www.arcgis.com/apps/dashboards/4bc3bcde4d5146d6882317c17bf6992b" },
   ];
